@@ -1,3 +1,4 @@
+#原始感知机代码
 import numpy as np
 import matplotlib.pyplot as plt
 # 输入三个点x1(3,3)、x2(4,3)、x3(1,1)其中x1,x2为正实例点，x3为负实例点
