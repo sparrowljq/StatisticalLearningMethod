@@ -20,7 +20,7 @@ for i in range(100):
     choice = -1
     for j in range(len(p_x)):
         # dot函数表示向量点积
-        if y[j] != np.sign(np.dot(w, p_x[0]) + b):
+        if y[j] != np.sign(np.dot(w, p_x[j]) + b):
             choice = j
             break
     # 表示三个点都被正确分类
