@@ -107,5 +107,5 @@ while a < 10:
     # 输出的结果为0,1,1,2,3,5,8,
     print(a, end=',')
     a, b = b, a+b
-# 输出结果为The value of i is 256
-print("The value of i is", 256)
+# 输出结果为The value of i is 2560
+print("The value of i is", 2560)
